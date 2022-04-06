@@ -1,0 +1,55 @@
+#stage {
+  width: 600px;
+  display: flex;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #0a2d68;
+}
+
+content {
+  display: flex;
+  flex-wrap: none;
+  margin: auto;
+  align-content: bottom;
+}
+
+#google {
+  z-index: -100;
+  position: relative;
+  left: 9vmin;
+  width: 60vmin;
+  max-width: 490px;
+}
+
+#unicorn {
+  width: 40vmin;
+  height: 30vmin;
+  position: relative;
+  left: 5vmin;
+  bottom: 7vmin;
+  max-width: 190px;
+}
+
+.body:hover {
+  cursor: pointer;
+}
+
+.frontEar:active {
+  transform: rotate(10deg) translatey(-1vmin) translatex(1vmin);
+}
+
+.frontEar:hover {
+  cursor: pointer;
+}
+
+#kick {
+  cursor: pointer;
+}
+
+#face {
+  cursor: pointer;
+}
